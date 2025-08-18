@@ -137,7 +137,6 @@ const init = function () {
   const storage = localStorage.getItem('bookmarks');
   if (!storage) return;
   state.bookmarks = JSON.parse(storage);
-  console.log(JSON.parse(storage));
 };
 init();
 

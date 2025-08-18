@@ -107,7 +107,7 @@ const controlAddRecipe = async function (newRecipe) {
 };
 
 const welcome = function () {
-  console.log(welcome);
+  console.log('Hello World!');
 };
 
 const init = function () {
