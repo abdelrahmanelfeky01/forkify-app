@@ -114,6 +114,6 @@ const init = function () {
   searchView.addHundlerSearch(controlSearchResult);
   paginationView.addHundlerClick(controlPagination);
   addRecipeView._addHundlerUpload(controlAddRecipe);
-  console.log('Welcome!');
+  console.log('Welcomme!');
 };
 init();
