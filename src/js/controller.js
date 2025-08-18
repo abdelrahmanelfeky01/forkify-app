@@ -106,6 +106,10 @@ const controlAddRecipe = async function (newRecipe) {
   }
 };
 
+const welcome = function () {
+  console.log(welcome);
+};
+
 const init = function () {
   bookmarksView.addHundlerRender(controlBookmarks);
   recipeView.addHundlerRender(controlRecipes);
@@ -114,6 +118,6 @@ const init = function () {
   searchView.addHundlerSearch(controlSearchResult);
   paginationView.addHundlerClick(controlPagination);
   addRecipeView._addHundlerUpload(controlAddRecipe);
-  console.log('Welcome!');
+  welcome();
 };
 init();
