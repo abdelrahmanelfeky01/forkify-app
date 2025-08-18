@@ -108,13 +108,6 @@ const controlAddRecipe = async function (newRecipe) {
 
 const welcome = function () {
   console.log(welcome);
-  console.log(welcome);
-  console.log(welcome);
-  console.log(welcome);
-  console.log(welcome);
-  console.log(welcome);
-  console.log(welcome);
-  console.log(welcome);
 };
 
 const init = function () {
