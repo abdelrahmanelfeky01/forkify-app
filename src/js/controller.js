@@ -119,5 +119,7 @@ const init = function () {
   paginationView.addHundlerClick(controlPagination);
   addRecipeView._addHundlerUpload(controlAddRecipe);
   welcome();
+  const year = document.querySelector('.year');
+  year.textContent = new Date().getFullYear();
 };
 init();
