@@ -17,4 +17,3 @@ A recipe application that lets you search over 1,000,000 recipes, adjust serving
 - ⚖️ Dynamically adjust ingredient quantities based on servings
 - 🔖 Bookmark favorite recipes (saved in localStorage)
 - ➕ Upload and share your own custom recipes
-- 📐 Built with MVC architecture pattern
